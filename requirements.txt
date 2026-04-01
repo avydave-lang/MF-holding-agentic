@@ -6,7 +6,7 @@ psycopg2-binary==2.9.9
 pydantic==2.7.1
 pydantic-settings==2.2.1
 playwright==1.44.0
-anthropic==0.26.0
+# google-generativeai — using REST API via httpx instead (see app/llm.py)
 redis==5.0.4
 python-dotenv==1.0.1
 httpx==0.27.0

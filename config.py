@@ -11,8 +11,9 @@ class Settings(BaseSettings):
     # Redis
     redis_url: str = "redis://localhost:6379/0"
 
-    # Anthropic
-    anthropic_api_key: str = ""
+    # Gemini
+    gemini_api_key: str = ""
+    gemini_model: str = "gemini-1.5-pro"
 
     # Scraping
     scrape_timeout_seconds: int = 30
